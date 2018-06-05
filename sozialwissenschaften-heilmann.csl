@@ -20,6 +20,7 @@
     <terms>
       <term name="accessed" form="long">zugegriffen am</term>
       <term name="accessed" form="short">zug.&#160;am</term>
+      <term name="and others">u.&#160;a.</term>
       <term name="no date" form="long">ohne Datum</term>
       <term name="no date" form="short">o.&#160;D.</term>
       <term name="ordinal-01">.</term>
@@ -250,7 +251,7 @@
   <macro name="citation-locator">
     <text variable="locator"/>
   </macro>
-  <citation et-al-min="4" et-al-use-first="1" disambiguate-add-names="true" disambiguate-add-givenname="true" disambiguate-add-year-suffix="true" collapse="year-suffix-ranged" year-suffix-delimiter=", ">
+  <citation et-al-min="4" et-al-use-first="1" disambiguate-add-names="true" disambiguate-add-year-suffix="true" collapse="year-suffix-ranged" year-suffix-delimiter=", ">
     <layout prefix="(" suffix=")" delimiter="; ">
       <choose>
         <if position="ibid-with-locator">
